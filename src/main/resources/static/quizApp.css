@@ -1,0 +1,111 @@
+
+body{
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #7cb5db; 
+    color: #343a40;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin-top: 100px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.container {
+    max-width: 900px;
+    width: 80%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.9); 
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+#Instructions {
+    background-color: #28a745;
+}
+#Instructions:hover{
+    background-color: rgb(44, 185, 138);
+}
+.quiz-container{
+    background-color: antiquewhite;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+    width: 900px;
+    overflow-y: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+}
+.quiz-header{
+    padding: 4rem;
+}
+h1{
+    text-align: center;
+}
+h2{
+    padding:1rem;
+    text-align: center;
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+ul li{
+    font-size: 1.3rem;
+    margin: 1rem 0; 
+}
+ul li label{
+    cursor: pointer;
+}
+button{
+    background-color: blue;
+    color: antiquewhite;
+    border: none;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1.1rem;
+    padding:1.3rem;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+button:hover{
+    background-color: rgb(97, 170, 204);
+}
+button:focus{
+    outline: none;
+    background-color: aqua;
+}
+/* .quiz-container{
+    border: 1px solid #ccc;
+    padding: 20px;
+    max-width: 600px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 450px;
+    overflow:hidden;
+} */
+.quiz-container button {
+    margin: 10px 10px; 
+    border-radius: 15px;
+}
+
+#submit-Quiz {
+    background-color: #28a745;
+}
+
+#submit-Quiz:hover{
+    background-color: rgb(44, 185, 138);
+}
